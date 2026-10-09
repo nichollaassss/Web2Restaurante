@@ -3,7 +3,7 @@ import { ItemCarrinho } from "./ItemCarrinho.js";
 export class Carrinho {
     constructor() {
         this.itens = [];
-        this.tipoEntrega = "retirada"; // "delivery" ou "retirada"
+        this.tipoEntrega = "retirada";
         this.taxaDelivery = 2.50;
     }
 
